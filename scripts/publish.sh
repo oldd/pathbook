@@ -1,6 +1,10 @@
 # add, commit recent changes
 git add .
 git commit -m 'building'
+<<<<<<< HEAD
+=======
+# switch to master, in case you weren't
+>>>>>>> 34024b10018872870321ccbaf08e911f8af60ce3
 git checkout master
 # build new gitbook
 gitbook build
