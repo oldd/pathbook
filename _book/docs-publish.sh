@@ -3,7 +3,7 @@ git add .
 git commit -m 'building'
 git checkout master
 # pull other changes
-git pull janke master
+git pull origin master
 # enter gitbook source
 cd src
 # build new gitbook
@@ -17,7 +17,7 @@ cd ..
 git add .
 git commit -m 'publishing'
 # publish changes
-git push janke master
+git push origin master
 
 # to execute this file run this command in terminal:
 # chmod a+x ./publish.sh
